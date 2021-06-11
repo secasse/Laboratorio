@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi Blog</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/font/flaticon.css">
+    <link rel="stylesheet" href="./css/media-queries.css">
+  </head>
+  <body class="home-body">
+    <header>
+      <section class="header-icons-container">
+        <!---iconos de redes sociales--->
+            {{> iconos}}
+      </section>
+      <nav>
+        <section class="nav-logo-container">
+          <!--- nav--->
+            {{> Nav}}
+        </section>
+      </nav>
+    </header>
+    <main class="home-main">
+      <section>
+        <p class="home-main-text">Conoce las novedades y noticias del turismo</p>
+        <button class="home-main-button">
+          <a href="blogs.html">Ingresar</a>
+        </button>
+      </section>
+    </main>
+  </body>
+</html>
